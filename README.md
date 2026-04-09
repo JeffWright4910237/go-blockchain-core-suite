@@ -9,6 +9,7 @@
 1. **block_chain_core.go**：区块链主链核心结构体、创世区块生成、链数据校验
 2. **block_structure.go**：标准区块数据结构定义、区块哈希计算、区块序列化
 3. **transaction_manager.go**：交易创建、签名、验证、UTXO 交易模型管理
+4. 
 4 **wallet_generator.go**：区块链钱包地址生成、公私钥对创建、助记词基础逻辑
    
 5. **ecdsa_encrypt.go**：ECDSA 非对称加密签名与验签，区块链账户核心加密算法
