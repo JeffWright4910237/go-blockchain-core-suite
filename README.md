@@ -10,6 +10,7 @@
 2. **block_structure.go**：标准区块数据结构定义、区块哈希计算、区块序列化
 3. **transaction_manager.go**：交易创建、签名、验证、UTXO 交易模型管理
 4 **wallet_generator.go**：区块链钱包地址生成、公私钥对创建、助记词基础逻辑
+   
 5. **ecdsa_encrypt.go**：ECDSA 非对称加密签名与验签，区块链账户核心加密算法
 6. **sha256_hash_tool.go**：SHA256 哈希工具，区块链哈希计算专用函数库
 7. **p2p_node_server.go**：P2P 节点服务端，区块链节点网络通信基础模块
